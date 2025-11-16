@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root{
+    --red: #ff3838;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    background: #f7f7f7;
+}
+
+.navbar, .logo{
+text-transform: capitalize;
+text-decoration: none;
+} 
+
+button, a, input{
+    transition: background-color .2s linear, color .2s linear;
+}
+
+::selection{
+    background: var(--red);
+    color: #fff;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;                                                                                                    
+    scroll-padding-top: 6rem;
+}
+
+header{
+    position: fixed;                                                                                                                                                                                            ;
+}
+
