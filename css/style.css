@@ -69,7 +69,7 @@ header{
     gap: 1.5rem;
 }
 
-.box-container .box{
+.speciality .box-container .box{
     flex: 1 1 30rem;
     position: relative;
     overflow: hidden;
@@ -78,6 +78,42 @@ header{
     cursor: pointer;
     border-radius: .5rem;
 }
+
+.popular .box{
+    flex: 1 1 30rem;
+    padding: 2rem;
+    background: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    border: .1rem solid rgba(0, 0, 0, .3);
+    border-radius: .5rem;
+    text-align: center;
+    position: relative;
+}
+
+.popular .box img{
+    height: 25rem;
+    object-fit: cover;
+    width: 100%;
+    border-radius: .5rem;
+}
+
+.popular .box .price{
+    position: absolute;
+    top: 3rem; left: 3rem;
+    background: var(--red);
+    color: #fff;
+    font-size: 2rem;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+}
+
+.popular .box i{
+    color: gold;
+    font-size: 1.7rem;
+    padding: 1rem .1rem;
+}
+
+
 
 .box-container .box .image{
     height: 100%;
@@ -99,7 +135,7 @@ header{
     margin: 1.5rem 0;
 }
 
-.box-container .box .content h3{
+.box-container .box h3{
     font-size: 2.5rem;
     color: #333;
 }
@@ -214,12 +250,12 @@ header{
 
 
 .content{
-    flex: 1 1 40rem;
+    flex: 1 1 30rem;
     padding-top: 6.5rem;
 }
 
 .image{
-    flex: 1 1 40rem;
+    flex: 1 1 30rem;
 }
 
 .image img{
